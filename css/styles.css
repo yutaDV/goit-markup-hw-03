@@ -81,6 +81,10 @@ img{
     color: #2e2f42;
     padding: 24px 0 24px
 }
+
+.menu-link{
+    padding: 24px 0 24px
+}
 .menu-link:hover {
         color: #404bbf;
     }
@@ -116,15 +120,14 @@ img{
 /* hero */
 .hero{
     padding: 188px 0;
+    background-color: #2e2f42;
 }
 .hero-container{
     width: 1440px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #2e2f42;
     color: #fff;
-    padding: 188px 0;
 }
 .main-title{
     max-width: 496px;
@@ -172,14 +175,7 @@ img{
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
+    visibility: hidden;
 }
 .about-us-list{
     display: flex;
@@ -236,6 +232,7 @@ img{
         text-align: center;
         color: #434455;
         background-color: #FFFFFF;
+        border-radius: 0px 0px 4px 4px;
 }
 .team-name-content{
     padding: 32px 0;
