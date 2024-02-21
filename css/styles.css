@@ -79,7 +79,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 24px 0;
+    padding: 24px 0 24px
 }
 .menu-link:hover {
         color: #404bbf;
@@ -114,7 +114,9 @@ img{
 }
 
 /* hero */
-
+.hero{
+    padding: 188px 0;
+}
 .hero-container{
     width: 1440px;
     display: flex;
@@ -161,8 +163,7 @@ img{
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 /* about-us */
@@ -208,11 +209,12 @@ img{
 
 /*our-team */
 
-
-.our-team-container{
+.our-team{
+    padding: 120px 0;
     background-color: #F4F4FD;
+}
+.our-team-container{
      width: 1440px;
-     padding-bottom: 120px;
 }
 
 
@@ -258,6 +260,7 @@ img{
 .portfolio{
     background-color: #fff;
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .portfolio-section-title{
