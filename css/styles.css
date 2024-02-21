@@ -25,7 +25,9 @@ body {
     background-color: #FFFFFF;
 }
 img{
-    display: block
+    display: block;
+     max-width: 100%;
+    height: auto;
 }
 
 .container {
@@ -191,11 +193,12 @@ img{
 .about-us-list{
     display: flex;
     gap: 24px;
+    justify-content: center;
     padding-left: 156px;
     padding-right: 156px;
 }
 .about-us-list-item{
-    width: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 .about-us-list-item-title {
         font-weight: 500;
