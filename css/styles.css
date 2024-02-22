@@ -31,7 +31,7 @@ img{
 }
 
 .container {
-    width: 1158px;
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -194,8 +194,6 @@ img{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    padding-left: 156px;
-    padding-right: 156px;
 }
 .about-us-list-item{
     width: calc((100% - 72px) / 4);
@@ -223,9 +221,7 @@ img{
     padding: 120px 0;
     background-color: #F4F4FD;
 }
-.our-team-container{
-     width: 1440px;
-}
+
 
 
 .team-list{
